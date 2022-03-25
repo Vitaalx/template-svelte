@@ -52,6 +52,14 @@
     </ButtonLink>
   </div>
 
+  <h2>Number of post: {allPosts.length}</h2>
+  <h3>Article list:</h3>
+  {#each allPosts as title}
+    <ul>
+      <li>{title}</li>
+    </ul>
+  {/each}
+
   <!-- recent posts -->
   <h2 class="flex items-baseline gap-4 !mb-2">
     Recent Posts
