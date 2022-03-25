@@ -25,6 +25,14 @@
 </svelte:head>
 
 <div class="flex flex-col flex-grow">
+  <h1>wonderful Shrek dive!</h1>
+
+  <video id="videoPlayer" controls muted="muted">
+    <source src="/videos/video.mp4" type="video/mp4" />
+  </video>
+</div>
+
+<div class="flex flex-col flex-grow">
   <!-- replace with a bio about you, or something -->
   <div class="flex items-center justify-center text-xl h-40">
     <ButtonLink size="large" href="https://github.com/mattjennings/sveltekit-blog-template">
@@ -58,7 +66,4 @@
   </div>
 </div>
 
- <!-- all posts -->
- <h2 class="flex items-baseline gap-4 !mb-2">
-    Tous les posts : {allPosts.length}
-</h2>
+
