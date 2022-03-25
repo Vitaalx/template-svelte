@@ -25,10 +25,10 @@
 </svelte:head>
 
 <div class="flex flex-col flex-grow">
-  <h1>wonderful Shrek dive!</h1>
+  <h1>Arcane | Bande annonce officiel</h1>
 
   <video id="videoPlayer" controls muted="muted">
-    <source src="/videos/video.mp4" type="video/mp4" />
+    <source src="video.mp4" type="video/mp4" />
   </video>
 </div>
 
